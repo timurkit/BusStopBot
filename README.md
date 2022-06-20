@@ -24,3 +24,10 @@ a small telegram bot connecting several bus stops into one image
 Изображение формируется через *pandas.Dataframe* и библиотеку *dataframe-image*, что позволило сразу получить заранее обрезанное удовлетворительное по качеству и дизайну изображение.
 
 ![alt text](https://github.com/timurkit/BusStopBot/blob/main/merge_from_ofoct.jpg)
+
+
+![alt text](https://github.com/timurkit/BusStopBot/blob/main/photo_2022-06-20_20-57-30.jpg)
+
+Из минусов реализации:
+* Долгое время генерации изображения. На загруженном HP Laptop 15-bw0xx время достигало нескольких секунд. 
+* Недостаточная асинхронность. Постоянно дорабатываются узкие места.
